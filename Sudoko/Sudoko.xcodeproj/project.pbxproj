@@ -21,6 +21,7 @@
 		6AB89E0E18858B8800DE45F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB89DF018858B8800DE45F7 /* UIKit.framework */; };
 		6AB89E1618858B8800DE45F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB89E1418858B8800DE45F7 /* InfoPlist.strings */; };
 		6AB89E1818858B8800DE45F7 /* SudokoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB89E1718858B8800DE45F7 /* SudokoTests.m */; };
+		BBD0BEAC188ACA870003F538 /* MMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0BEAB188ACA870003F538 /* MMOSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6AB89E1318858B8800DE45F7 /* SudokoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SudokoTests-Info.plist"; sourceTree = "<group>"; };
 		6AB89E1518858B8800DE45F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AB89E1718858B8800DE45F7 /* SudokoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudokoTests.m; sourceTree = "<group>"; };
+		BBD0BEAA188ACA870003F538 /* MMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMOSecondViewController.h; sourceTree = "<group>"; };
+		BBD0BEAB188ACA870003F538 /* MMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMOSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				6AB89DFB18858B8800DE45F7 /* MMOAppDelegate.h */,
 				6AB89DFC18858B8800DE45F7 /* MMOAppDelegate.m */,
 				6AB89DFE18858B8800DE45F7 /* Main.storyboard */,
+				BBD0BEAA188ACA870003F538 /* MMOSecondViewController.h */,
+				BBD0BEAB188ACA870003F538 /* MMOSecondViewController.m */,
 				6AB89E0118858B8800DE45F7 /* MMOViewController.h */,
 				6AB89E0218858B8800DE45F7 /* MMOViewController.m */,
 				6AB89E0418858B8800DE45F7 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD0BEAC188ACA870003F538 /* MMOSecondViewController.m in Sources */,
 				6AB89DFD18858B8800DE45F7 /* MMOAppDelegate.m in Sources */,
 				6AB89E0318858B8800DE45F7 /* MMOViewController.m in Sources */,
 				6AB89DF918858B8800DE45F7 /* main.m in Sources */,
@@ -461,6 +467,7 @@
 				6AB89E1D18858B8800DE45F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AB89E1E18858B8800DE45F7 /* Build configuration list for PBXNativeTarget "SudokoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				6AB89E2018858B8800DE45F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
