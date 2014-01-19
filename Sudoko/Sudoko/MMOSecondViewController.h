@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MMOSecondViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UILabel *welcomeLabel;
+@property (nonatomic)NSString *userName;
 @end

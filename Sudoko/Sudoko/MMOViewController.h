@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MMOViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *userNameInput;
 
 @end

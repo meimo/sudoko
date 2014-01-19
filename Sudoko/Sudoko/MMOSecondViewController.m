@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.welcomeLabel.text=[@"Hello," stringByAppendingString:self.userName] ;
 	// Do any additional setup after loading the view.
 }
 
